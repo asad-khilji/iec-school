@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="admin-login" data-page="login">
+  <form id="loginForm" class="login-box">
+    <h1>Admin Login</h1>
+    <p class="muted">Sign in to manage the IEC school website.</p>
+    <p id="loginMessage" hidden></p>
+
+    <label for="email">Email</label>
+    <input id="email" type="email" required autocomplete="username">
+
+    <label for="password">Password</label>
+    <div class="password-row">
+      <input id="password" type="password" required autocomplete="current-password" placeholder="admin12345">
+      <button type="button" class="toggle-password" data-target="password">Show</button>
+    </div>
+
+    <button class="btn primary" type="submit">Login</button>
+    <p class="small muted">Default login: admin@isnjiec.local / admin12345</p>
+  </form>
+  <script src="../assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,1 +1,34 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="dashboard">
+  <div class="admin-wrap">
+    <aside class="admin-side">
+      <h2>IEC Admin</h2>
+      <a class="active" href="index.html">Dashboard</a>
+      <a href="password.html">Password</a>
+      <button type="button" data-logout>Logout</button>
+    </aside>
+    <main class="admin-main">
+      <h1>Dashboard</h1>
+      <div class="admin-cards">
+        <section class="admin-card">
+          <h3>Change Password</h3>
+          <p>Update the admin password using local JSON-style storage.</p>
+          <a class="btn secondary" href="password.html">Open Password Page</a>
+        </section>
+        <section class="admin-card">
+          <h3>Static Admin Demo</h3>
+          <p>This version uses HTML, CSS, JavaScript, and <code>data/admin.json</code> instead of PHP/MySQL.</p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="../assets/js/admin.js"></script>
+</body>
+</html>
