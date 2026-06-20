@@ -1,1 +1,12 @@
-
+{
+  "admin": {
+    "id": 1,
+    "name": "Admin",
+    "email": "admin@isnjiec.local",
+    "passwordHash": "41e5653fc7aeb894026d6bb7b2db7f65902b454945fa8fd65a6327047b5277fb"
+  },
+  "meta": {
+    "passwordHint": "Default password is admin12345. Change it after login.",
+    "storageKey": "isnjIecAdmin"
+  }
+}
